@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="css/common.css">
+  </head>
+  <body>
+    <div class="row">
+      <header>
+        <img src="src/header.png" alt="header image" class="header_image">
+      </header>
+    </div>
+    <div class="row center-area">
+      <!-- NAVIGATION AREA -->
+      <div class="col left-panel">
+        <div class="nav-bar">
+          <ul>
+            <li><a href="./index.html" style="color:brown"><strong>TRANG CHỦ</strong></a></li>
+            <li><a href="./create_school_account.html">Đăng ký tài khoản trường</a></li>
+            <li><a href="#">Đăng ký tài khoản sinh viên</a></li>
+          </ul>
+        </div>
+
+        <div class="login-form">
+          <form>
+            <input type="text" value="Email đăng nhập">
+            <input type="password" value="Mật khẩu">
+            <input type="submit" value="Đăng nhập">
+          </form>
+        </div>
+
+      </div>
+      <div class="col content">
+        <!-- CREATE FORM AREA -->
+          <form>
+            <h3>Đăng ký thông tin</h3>
+            <table>
+              <tbody>
+                <tr>
+                  <td>Họ và tên:</td>
+                  <td><input name="name" type="text"></td>
+                </tr>
+
+                <tr>
+                  <td>Mã số sinh viên:</td>
+                  <td><input name="id" type="text"></td>
+                </tr>
+
+                <tr>
+                  <td>Ngày tháng năm sinh:</td>
+                  <td><input name="birthdate" type="date"></td>
+                </tr>
+
+                <tr>
+                  <td>Giới tính</td>
+                  <td>
+                    <select>
+                      <option value="nam">Nam</option>
+                      <option value="nu">Nữ</option>
+                    </select>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>Tên trường:</td>
+                  <td><input name="school" type="text"></td>
+                </tr>
+
+                <tr>
+                  <td>Ngành học:</td>
+                  <td><input name="course" type="text"></td>
+                </tr>
+
+                <tr>
+                  <td>Hệ đào tạo</td>
+                  <td>
+                    <select>
+                      <option value="dai_hoc">Đại học</option>
+                      <option value="cao_dang">Cao đẳng</option>
+                    </select>
+                  </td>
+                </tr>
+                
+                <tr>
+                  <td>Chuyên tin?</td>
+                  <td>
+                    <select>
+                      <option value="chuyen">Chuyên tin</option>
+                      <option value="khong_chuyen">Không chuyên tin</option>
+                    </select>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>Khóa học:</td>
+                  <td><input name="year" type="text" value="ex: 2014"></td>
+                </tr>
+
+                <tr>
+                  <td>Số điện thoại:</td>
+                  <td><input name="phone" type="text"></td>
+                </tr>
+                <tr>
+                  <td>Email:</td>
+                  <td><input name="email" type="text"></td>
+                </tr>
+                <tr>
+                  <td>Mật khẩu:</td>
+                  <td><input name="password" type="password"></td>
+                </tr>
+              </tbody>
+            </table>
+            <input value="Xác nhận" type="submit">
+          </form>
+      </div>
+    </div>
+  </body>
+</html>
